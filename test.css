@@ -1,0 +1,35 @@
+body{
+    background-color: #fdf0d6;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100% auto;
+}
+
+.squares{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#botonregreso{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 13px;
+    height:35px;
+    width: 90px;
+    color: black;
+    border-top:black 2px solid;
+    border-right: black 2px solid; 
+    border-bottom: none;
+    border-left: none;
+    margin-top: 100px;
+    margin-left: 694px;
+}
+#botonregreso:hover{
+  border: 2px solid #ffd1cc;
+  color:#ffd1cc;
+}

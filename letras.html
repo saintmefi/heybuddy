@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gato</title>
+	<meta name="description" content="tic-tac-toe">
+	<link rel="stylesheet" href="letras.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Poppins" rel="stylesheet">
+</head>
+<body>
+	<a href="index.html">
+		<button id="botonregreso">Regresar</button>
+	 </a>
+
+	<div class="container">
+	<div id="game">
+		<h1 style="font-family:'Poppins', sans-serif; font-size: 40px" >Gato</h1>
+		<h2 style="font-family:'Poppins', sans-serif;" id="player">Jugador X</h2>
+		<div class="main">
+			<div class="square"></div>
+			<button value="0" onclick="myFunction(this.value)"></button>
+			<button value="1" onclick="myFunction(this.value)"></button>
+			<button value="2" onclick="myFunction(this.value)"></button>
+			<button value="3" onclick="myFunction(this.value)"></button>
+			<button value="4" onclick="myFunction(this.value)"></button>
+			<button value="5" onclick="myFunction(this.value)"></button>
+			<button value="6" onclick="myFunction(this.value)"></button>
+			<button value="7" onclick="myFunction(this.value)"></button>
+			<button value="8" onclick="myFunction(this.value)"></button>
+		</div>
+		<button class="button-style" onclick="window.location.reload();">Volver a jugar</button>
+	 </div>
+	 <div id="message">
+		<div id="message-box">
+			<h1 id="message-text">hello</h1>
+			<button class="button-style" id="message-button" onclick="messageClose()">ok</button>
+		</div>
+    </div>
+</div> 
+
+    
+    <script src="letras.js"></script>
+</body>
+</html>
