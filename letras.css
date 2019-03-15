@@ -24,7 +24,6 @@ body {
 	width: 788px;
     display: initial;
 	margin: 0 4vw;
-	filter: blur(0px);
 	animation-duration: 1s;
 	transition-duration: 0.4s;
 }
