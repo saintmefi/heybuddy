@@ -327,3 +327,10 @@ img.img-fluid{
     border: 2px solid #ffd1cc;
     color:#ffd1cc;
 }
+
+@media (max-width: 768px) {
+ .pag2 .imagen{
+     width: 70%;
+     margin: auto;
+ }
+}
