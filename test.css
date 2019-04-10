@@ -8,10 +8,14 @@ body{
     flex-direction: column;
     height: 100% auto;
 }
+.form-group{
+  margin-top: 27px; 
+  font-size: 20px;
+}
 
 .squares{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: row;
 }
 #botonregreso{
@@ -33,6 +37,9 @@ body{
   border: 2px solid #ffd1cc;
   color:#ffd1cc;
 }
-.btn btn-primary{
-    width: 100px;
+#botonScore{
+    margin-left: 40%;
+    width: 300px;
+    margin-top: 40px;
+
 }
